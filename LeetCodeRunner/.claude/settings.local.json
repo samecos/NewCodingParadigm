@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls problems/ | grep -E '^[0-9]{4}_' | sort | awk 'NR>5' > /tmp/todo_problems.txt && split -l 181 /tmp/todo_problems.txt /tmp/batch_ && ls /tmp/batch_* | wc -l)",
+      "Bash(env | grep -i \"model\\\\|claude\\\\|anthropic\" | head -20)"
+    ]
+  }
+}

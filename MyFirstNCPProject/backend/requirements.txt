@@ -1,0 +1,28 @@
+# FastAPI 后端依赖
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+websockets>=12.0
+
+# 3D Gaussian Splatting
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+plyfile>=1.0.0
+
+# diff-gaussian-rasterization
+# 注意：需要从源代码安装
+git+https://github.com/graphdeco-inria/diff-gaussian-rasterization.git
+
+# 辅助库（diff-gaussian-rasterization 的依赖）
+simple-knn @ git+https://gitlab.inria.fr/bkerbl/simple-knn.git
+
+# COLMAP (可选)
+pycolmap
+
+# 图像处理
+Pillow>=10.0.0
+
+# 工具
+python-dotenv>=1.0.0

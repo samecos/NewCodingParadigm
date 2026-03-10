@@ -1,0 +1,21 @@
+# 核心依赖（无需编译）
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+websockets>=12.0
+
+# 基础 ML 库
+numpy>=1.24.0
+plyfile>=1.0.0
+
+# 图像处理
+Pillow>=10.0.0
+
+# 工具
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# 可选依赖（用于评估）
+# lpips
+# scikit-image
